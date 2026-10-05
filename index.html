@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Porrum Games</title>
+<meta name="description" content="Porrum Games — des jeux qui font germer l'imaginaire. Studio indépendant de jeux mobiles.">
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --deep: #0E241C; --accent: #B9E84E; --ecru: #F3EFE3; --muted: #9fb3a6; --panel: #133024; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--deep); color: var(--ecru); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 40px 16px 64px; text-align: center; }
+  .hero { background: radial-gradient(ellipse at 50% 70%, rgba(80,160,70,.35), transparent 65%); padding: 8px 0 24px; }
+  .hero img { width: min(420px, 90%); height: auto; }
+  .tagline { color: var(--accent); letter-spacing: .25em; text-transform: uppercase; font-size: .85rem; margin: 0; }
+  h2 { color: var(--accent); font-size: 1.1rem; letter-spacing: .15em; text-transform: uppercase; margin: 48px 0 16px; }
+  .game { display: flex; gap: 20px; align-items: center; text-align: left; background: var(--panel); border-radius: 16px; padding: 20px; }
+  .game img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  .game h3 { margin: 0 0 4px; font-size: 1.3rem; }
+  .game p { margin: 0 0 8px; color: var(--muted); }
+  a { color: var(--accent); }
+  .links a { margin-right: 14px; }
+  footer { margin-top: 56px; color: var(--muted); font-size: .9rem; }
+  @media (max-width: 480px) { .game { flex-direction: column; text-align: center; } }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img src="img/porrum-games-logo.png" alt="Porrum Games" width="800" height="500">
+    <p class="tagline">Des jeux qui font germer l'imaginaire</p>
+  </section>
+
+  <h2>Nos jeux · Our games</h2>
+  <article class="game">
+    <img src="img/shipjumps-icon.png" alt="ShipJumps" width="256" height="256">
+    <div>
+      <h3>ShipJumps</h3>
+      <p>Saute, esquive et traverse 22 mondes en pixel art face aux machines du Pr Krank.<br>
+         Jump, dodge and fly through 22 pixel-art worlds against Professor Krank's machines.</p>
+      <p class="links">
+        <a href="shipjumps/privacy.html">Confidentialité · Privacy</a>
+      </p>
+    </div>
+  </article>
+
+  <footer>
+    Porrum Games — <a href="mailto:porrumgame@gmail.com">porrumgame@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
